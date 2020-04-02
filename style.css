@@ -1,0 +1,70 @@
+.content, .contact {
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin-bottom: 20px; }
+
+.content {
+  background-color: #ffffff; }
+
+.contact {
+  color: white;
+  background-color: #080c61; }
+
+.navbrand {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 14px; }
+
+.nava {
+  float: right; }
+
+.contact p::selection {
+  color: green;
+  background-color: yellow; }
+
+table, th, td {
+  border: 1px solid black;
+  padding: 7px;
+  width: 100%;
+  height: 50%; }
+
+button a:hover {
+  color: white;
+  text-decoration: none; }
+
+header {
+  background-color: #5cd16e; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+li {
+  float: left; }
+
+img {
+  width: 100%;
+  height: 125px; }
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none; }
+
+li > a:hover {
+  background-color: #054a59;
+  color: white;
+  text-decoration: none; }
+
+a > label {
+  padding-left: 60px;
+  color: black;
+  font-weight: bold; }
+
+/*# sourceMappingURL=style.css.map */
