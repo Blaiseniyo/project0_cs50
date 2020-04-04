@@ -9,7 +9,12 @@
 
 .contact {
   color: white;
-  background-color: #080c61; }
+  text-align: center;
+  background-color: #0d0a21; }
+  .contact h2 {
+    text-align: center;
+    color: #c7420e;
+    border-bottom: 4px solid #e3db02; }
 
 .navbrand {
   font-family: sans-serif;

@@ -1,3 +1,5 @@
+$place:center;
+
 %look{
 	padding: 10px 20px;
 	border: 1px solid #dddddd;
@@ -12,7 +14,13 @@
 .contact{
 	@extend %look;
 	color:white;
-	background-color: #080c61;
+	text-align: $place;
+	background-color: #0d0a21;
+	h2{
+		text-align:$place;
+		color:#c7420e;
+		border-bottom: 4px solid #e3db02;
+	}
 }
 
 .navbrand{
