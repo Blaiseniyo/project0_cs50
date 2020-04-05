@@ -22,8 +22,11 @@
   font-size: 18px;
   padding: 14px; }
 
-.nava {
+.nava-right {
   float: right; }
+
+.nava-left {
+  float: left; }
 
 .contact p::selection {
   color: green;
@@ -40,6 +43,9 @@ button a:hover {
   text-decoration: none; }
 
 header {
+  background-color: #5cd16e; }
+
+.navbar-nav .nav-link {
   background-color: #5cd16e; }
 
 ul {
@@ -72,5 +78,9 @@ a > label {
   text-align: center;
   color: black;
   font-weight: bold; }
+
+@media screen and (max-width: 100px) {
+  .nava-right, .nava-left {
+    float: none; } }
 
 /*# sourceMappingURL=style.css.map */
