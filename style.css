@@ -79,7 +79,7 @@ a > label {
   color: black;
   font-weight: bold; }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 600px) {
   .nava-right, .nava-left {
     float: none; } }
 
