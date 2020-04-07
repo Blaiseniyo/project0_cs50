@@ -1,3 +1,6 @@
+body {
+  padding-top: 70px; }
+
 .content, .contact {
   padding: 10px 20px;
   border: 1px solid #dddddd;
@@ -16,17 +19,8 @@
     color: #c7420e;
     border-bottom: 4px solid #e3db02; }
 
-.navbrand {
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 14px; }
-
-.nava-right {
-  float: right; }
-
-.nava-left {
-  float: left; }
+.nav-link {
+  padding: 9px; }
 
 .contact p::selection {
   color: green;
@@ -42,10 +36,7 @@ button a:hover {
   color: white;
   text-decoration: none; }
 
-header {
-  background-color: #5cd16e; }
-
-.navbar-nav .nav-link {
+nav {
   background-color: #5cd16e; }
 
 ul {
@@ -74,13 +65,12 @@ li > a:hover {
   text-decoration: none; }
 
 a > label {
-  padding-left: 40px;
   text-align: center;
   color: black;
   font-weight: bold; }
 
 @media screen and (max-width: 600px) {
-  .nava-right, .nava-left {
-    float: none; } }
+  .nav-link {
+    float: left; } }
 
 /*# sourceMappingURL=style.css.map */

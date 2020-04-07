@@ -1,4 +1,7 @@
 $place:center;
+body{
+	padding-top:70px;
+}
 
 %look{
 	padding: 10px 20px;
@@ -23,22 +26,9 @@ $place:center;
 	}
 }
 
-.navbrand{
-	font-family: sans-serif;
-	font-weight: bold;
-	font-size: 18px;
-	padding: 14px ;
+.nav-link{
+	padding:9px;
 }
-
-
-.nava-right{
-	float: right;
-}
-
-.nava-left{
-	float: left;
-}
-
 .contact p::selection{
 	color:green;
 	background-color: yellow;
@@ -55,10 +45,7 @@ button a:hover{
 	color: white;
 	text-decoration: none;
 }
-header{
-	background-color: #5cd16e;
-}
-.navbar-nav .nav-link{
+nav{
 	background-color: #5cd16e;
 }
 
@@ -95,14 +82,14 @@ li>a:hover {
 }
 
 a>label{
-	padding-left: 40px;
 	text-align: center;
  	color: black;
  	font-weight: bold;
  }
 
  @media screen and (max-width: 600px){
-    .nava-right,.nava-left {float: none;}
+    .nav-link{float: left;}
+    
 }
 
 
