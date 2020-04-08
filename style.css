@@ -71,6 +71,10 @@ a > label {
 
 @media screen and (max-width: 600px) {
   .nav-link {
-    float: left; } }
+    float: left; }
+
+  img {
+    width: 50%;
+    height: 50%; } }
 
 /*# sourceMappingURL=style.css.map */
