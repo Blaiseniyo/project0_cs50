@@ -46,7 +46,15 @@
                                 <label class="border-bottom mr-2">Make An Order</label>
                                 <div class="form-group">
                                     <label class="form-control-label" for="name">What's Your Choice:</label>
-                                    <input class="form-control form-control-md" type="text" placeholder="Choice" name="name">
+                                    <input class="form-control form-control-md" list="coffee" placeholder="Choice" name="coffee">
+                                    <datalist id="coffee">
+                                        <option value="CAPPUCCINO">
+                                        <option value="COFFE LATTE">
+                                        <option value="COFFE AU LAIT">
+                                        <option value="FLAT WHITE">
+                                        <option value="MOCHA">
+                                        <option value="ICED COFFEE">
+                                    </datalist>
                                 </div>
                                 <div class="form-group">
                                     <label class="form-control-label" for="qty">Quantity:</label>

@@ -46,7 +46,15 @@
                                 <label class="border-bottom mr-2">Make An Order</label>
                                 <div class="form-group">
                                     <label class="form-control-label" for="name">What's Your Choice:</label>
-                                    <input class="form-control form-control-md" type="text" placeholder="Choice" name="name">
+                                    <input class="form-control form-control-md" list="Pizza" placeholder="Choice" name="pizza">
+                                    <datalist id="Pizza">
+                                        <option value="MEAT PIZZA">
+                                        <option value="CHEESE PIZZA">
+                                        <option value="MARGHERITA">
+                                        <option value="VEGGIE PIZZA">
+                                        <option value="SUPREME PIZZA">
+                                        <option value="PEPPERONI PIZZA">
+                                    </datalist>
                                 </div>
                                 <div class="form-group">
                                     <label class="form-control-label" for="qty">Quantity:</label>
