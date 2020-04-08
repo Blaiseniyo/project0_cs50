@@ -16,5 +16,5 @@ This project is made of different files:
 4. **contact.html**: This file contains contacts the user can use to contact the company.
 5. **style.css & style.scss**: Both of these file contains features that makes the website look 								the way if if looks. 
 6. **coffee.html & pizza.html**: Both of these files shows to customers different types of 										coffee and pizza respectively that the restaurant can offer .
-7. **Order.html**: This file contains a form that the customer fills to make an order.
+7. **Order.html,Ordercoffee.html & Orderpizza.html**: These files contain forms that  customers will fill to make an order of their choice.
 
